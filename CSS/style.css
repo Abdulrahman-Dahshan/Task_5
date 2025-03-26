@@ -30,7 +30,7 @@ nav i {
   padding: 10px;
 }
 nav .fa-search {
-  padding: 10px;
+  font-size: 20px;
 }
 nav a:hover {
   background-color: darkgray;
@@ -54,7 +54,7 @@ header span {
   font-size: 24px;
   position: absolute;
   left: calc(50% - 188px);
-  top: 60%
+  top: 60%;
 }
 
 .about-me {
@@ -71,8 +71,8 @@ p {
   margin-bottom: 20px;
   line-height: 2;
 }
-.about-me p{
-    text-align: left;
+.about-me p {
+  text-align: left;
 }
 
 .my-name {
@@ -106,7 +106,6 @@ p {
 .skills {
   width: 70%;
   color: #777;
-  /* text-align: center; */
   margin: auto;
   margin-top: 70px;
 }
@@ -229,7 +228,7 @@ p {
   text-align: center;
   color: #777;
 }
-.where-work h2{
+.where-work h2 {
   margin-bottom: 20px;
 }
 .adress {
@@ -292,4 +291,42 @@ p {
 .btn-2:hover {
   background-color: #bdb5b5;
   color: black;
+}
+
+footer {
+  height: 40vh;
+  background-color: #616161;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+footer:hover {
+  background: black;
+}
+footer div {
+  top: 30%;
+  left: 45%;
+}
+
+footer div i {
+  color: white;
+  font-size: 24px;
+  margin-right: 5px;
+}
+footer div button {
+  background-color: white;
+  padding: 15px 40px;
+  margin-bottom: 25px;
+  border: none;
+  color: #777;
+}
+
+footer div button:hover {
+  background-color: #aba5a5;
+  color: black;
+}
+footer div i:hover {
+  color: #777;
 }
